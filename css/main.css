@@ -1,0 +1,16 @@
+.box{
+  width: 300px;
+  height: 150px;
+  border: 2px solid black;
+  transition: all 4s cubic-bezier(1,-0.04,.06,.91);
+  /* transform: scale(1, 10);  */
+  /* transform: translate(30px, 30px); */
+  /* transform: rotate(4turn); */
+  transform: skew(40deg, 40deg);
+}
+.box:hover{
+  background-color: aqua;
+  box-shadow: 0 0 10px black;
+  width: 600px;
+  height: 1000px;
+}
